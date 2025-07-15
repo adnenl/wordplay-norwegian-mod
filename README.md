@@ -32,35 +32,22 @@ The custom dictionary and letter bag files must be placed in the same folder as 
 
 ---
 
-### 2. Add the Custom Dictionary
+### 2. Download the Custom Files
 
-Create a file named `customdictionary.txt` inside the save folder.
+Download the `customdictionary.txt` and `customletterbag.txt` files from this repository.
 
-- The file should contain every Norwegian word you want the game to accept.
-- Use **CAPITAL LETTERS**.
-- List words in **alphabetical order**.
-- Non-Latin characters (like Æ, Ø, Å) are supported if your system/font supports UTF-8.
+- Navigate to the repository on GitHub.
+- Locate the `customdictionary.txt` and `customletterbag.txt` files.
+- Download these files to your computer.
 
 ---
 
-### 3. Add the Custom Letter Bag
+### 3. Place the Files in the Save Folder
 
-Create a file named `customletterbag.txt` in the same folder.
+Move the downloaded files into the save folder you identified in Step 1.
 
-- Each line should be a 5-character code:
-  - 1st character: Letter (e.g., `A`, `Æ`, `Ø`, `Å`)
-  - Next two digits: Tile value (e.g., `01` for 1 point)
-  - Last two digits: Number of tiles (e.g., `07` for seven tiles)
-
-Example line:
-
-```plaintext
-A0107
-```
-
-means 7 tiles of the letter A, each worth 1 point.
-
-The Norwegian letter bag values and distributions are based on the official Norwegian Scrabble rules.
+- Ensure the files are named exactly as `customdictionary.txt` and `customletterbag.txt`.
+- Restart Word Play to apply the changes.
 
 ---
 
@@ -94,4 +81,5 @@ To revert back to the standard English game:
 Good luck, and have fun playing Word Play in Norwegian!
 
 Made by adnenl
+
 Inspired by the official Word Play modding guide by Mark Brown.
